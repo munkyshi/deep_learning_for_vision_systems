@@ -19,8 +19,8 @@ limitations under the License.
 from __future__ import division
 import numpy as np
 import tensorflow.keras.backend as K
-from tensorflow.keras.engine.topology import InputSpec
-from tensorflow.keras.engine.topology import Layer
+from tensorflow.keras.layers import InputSpec
+from tensorflow.keras.layers import Layer
 
 class L2Normalization(Layer):
     '''
